@@ -3,9 +3,14 @@ import Camper from "./Camper";
 import Home from "./Home";
 
 function App() {
+
+
+  // fetch("localhost")
+
+  
   return (
     <main>
-      <h1>
+      {/* <h1>
         <Link to="/">Camping Fun</Link>
       </h1>
       <Switch>
@@ -15,7 +20,7 @@ function App() {
         <Route exact path="/campers/:id">
           <Camper />
         </Route>
-      </Switch>
+      </Switch> */}
     </main>
   );
 }
